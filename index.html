@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jerome's Java — Coming Soon</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Outfit:wght@300;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --cream: #f5f0e8;
+      --espresso: #2c1810;
+      --caramel: #8b6914;
+      --milk: #e8e0d5;
+    }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Outfit', sans-serif;
+      background: var(--cream);
+      color: var(--espresso);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+      text-align: center;
+    }
+    .logo {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(2.5rem, 8vw, 4rem);
+      font-weight: 600;
+      letter-spacing: 0.02em;
+      margin-bottom: 0.5rem;
+    }
+    .tagline {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(1.1rem, 3vw, 1.4rem);
+      font-weight: 400;
+      font-style: italic;
+      color: var(--caramel);
+      margin-bottom: 2.5rem;
+    }
+    .coming-soon {
+      font-weight: 300;
+      font-size: 0.95rem;
+      text-transform: uppercase;
+      letter-spacing: 0.25em;
+      color: var(--espresso);
+      opacity: 0.8;
+    }
+    .divider {
+      width: 60px;
+      height: 1px;
+      background: var(--caramel);
+      margin: 2rem auto;
+      opacity: 0.6;
+    }
+  </style>
+</head>
+<body>
+  <h1 class="logo">Jerome's Java</h1>
+  <p class="tagline">Where every cup has a story.</p>
+  <div class="divider"></div>
+  <p class="coming-soon">Coming Soon</p>
+</body>
+</html>
